@@ -1,0 +1,102 @@
+/* style.css - Simple version */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 2px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  background: #eee;
+  padding: 30px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background: #555;
+}
+
+/* Sections */
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Gallery */
+.gallery-items {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.art {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  flex: 1 1 30%;
+}
+
+.art img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #777;
+  background-color: black;
+
+}
